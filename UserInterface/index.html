@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>Company Details Form</title>
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container mt-5">
+    <div class="card">
+      <div class="card-header">
+        <h1 class="text-center">Company Details</h1>
+      </div>
+      <div class="card-body">
+        <form id="companyForm">
+          <div class="form-group">
+            <label for="companyName">Company Name:</label>
+            <input type="text" class="form-control" id="companyName" required>
+          </div>
+
+          <div class="form-group">
+            <label for="companyAddress">Company Address:</label>
+            <textarea class="form-control" id="companyAddress" rows="4" required></textarea>
+          </div>
+
+          <div class="form-group">
+            <label for="companyEmail">Company Email:</label>
+            <input type="text" class="form-control" id="companyEmail" required>
+          </div>
+
+          <div class="form-group">
+            <label for="companyPhone">Company Phone:</label>
+            <input type="text" class="form-control" id="companyPhone" required>
+          </div>
+
+          <button type="button" class="btn btn-primary btn-block" onclick="saveCompanyDetails()">Save</button>
+        </form>
+
+        <div id="displayDetails" class="mt-4"></div>
+      </div>
+    </div>
+  </div>
+
+  
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+ 
+  <script src="script.js"></script>
+</body>
+</html>
