@@ -1,3 +1,5 @@
+// Fhiel Anthony B. Barloso
+
 public class strongArm {
     public static void main(String[] args) {
         int number = 2;
